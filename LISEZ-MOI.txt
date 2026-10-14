@@ -1,0 +1,15 @@
+PUBLIER SUR GITHUB PAGES
+1. Créer un dépôt public sur github.com (par exemple « denivelles »).
+2. Bouton « Add file » > « Upload files » : déposer TOUS les fichiers de ce dossier
+   (index.html, sw.js, manifest.webmanifest et les 4 images .png), puis « Commit changes ».
+3. Settings > Pages > Source : « Deploy from a branch », branche « main », dossier « / (root) », Save.
+4. Au bout d'une ou deux minutes, le lien https://VOTRE-COMPTE.github.io/denivelles/ est actif.
+
+SUR L'IPAD (Safari)
+1. Ouvrir le lien une première fois avec du réseau et laisser la page se charger.
+2. Bouton Partager > « Sur l'écran d'accueil » : l'icône s'ajoute et s'ouvre en plein écran.
+3. Ensuite la page fonctionne aussi sans réseau.
+
+METTRE À JOUR LA PAGE
+Remplacer index.html sur GitHub. Pour que les iPad récupèrent la nouvelle version
+plus vite, changer aussi le numéro de VERSION au début de sw.js (denivele-v2, v3...).
